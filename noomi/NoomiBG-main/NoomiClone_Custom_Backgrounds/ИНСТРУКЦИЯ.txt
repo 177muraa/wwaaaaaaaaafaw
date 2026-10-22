@@ -1,0 +1,12 @@
+NoomiClone Custom Backgrounds — Android project
+
+Как получить APK без Android Studio:
+1. В браузере откройте github.com и войдите/создайте аккаунт.
+2. Создайте новый репозиторий (например, noomiclone-backgrounds).
+3. Распакуйте этот ZIP и загрузите все файлы и папки проекта в репозиторий, включая скрытую папку .github/workflows.
+4. Откройте вкладку Actions и разрешите GitHub Actions, если сайт спросит.
+5. Выберите workflow “Build Android APK” и нажмите Run workflow. Также сборка стартует после загрузки файлов.
+6. Откройте завершившийся запуск (зелёная галочка), найдите Artifacts и скачайте NoomiClone-Custom-Backgrounds-APK.
+7. Распакуйте скачанный artifact ZIP; внутри будет app-debug.apk.
+
+Это отдельное приложение для показа фонов внутри самого приложения, а не модификация оригинальной NoomiClone. APK будет debug-сборкой для тестирования.
